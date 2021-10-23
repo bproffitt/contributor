@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.668" height="66.069" viewBox="0 0 49.668 66.069">
+  <g id="mic" transform="translate(-0.001 0.75)">
+    <line id="Line_1121" data-name="Line 1121" x2="29.801" transform="translate(9.934 64.569)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <line id="Line_1122" data-name="Line 1122" y2="9.933" transform="translate(24.834 54.636)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <path id="Path_14414" data-name="Path 14414" d="M848.6,334.765l.186,12.494a12.6,12.6,0,0,1-25.206,0V325.021a12.6,12.6,0,1,1,25.206,0v2.295" transform="translate(-811.347 -312.415)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <path id="Path_14415" data-name="Path 14415" d="M860.388,326.415a19.867,19.867,0,0,1-39.734,0" transform="translate(-815.686 -291.647)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <line id="Line_1123" data-name="Line 1123" x2="49.668" transform="translate(0.001 29.802)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <line id="Line_1124" data-name="Line 1124" x2="17.384" transform="translate(24.834 22.352)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+    <line id="Line_1125" data-name="Line 1125" x1="17.384" transform="translate(24.834 14.902)" fill="none" stroke="#2f7879" stroke-width="1.5"/>
+  </g>
+</svg>

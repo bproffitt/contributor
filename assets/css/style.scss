@@ -1,0 +1,644 @@
+---
+---
+/* These are variables the Cayman theme defines */
+
+/* Headers */
+$header-heading-color: #ffffff;
+$header-bg-color: #ffffff;
+$header-bg-color-secondary: #ffffff;
+/* Footer */
+
+$footer-body: #000000;
+/* Text */
+$section-headings-color: #151515;;
+$body-text-color: #151515;;
+$body-link-color: #0066cc;
+$blockquote-text-color: #8dc396;
+
+/* Code */
+$code-bg-color: #f3f6fa;
+$code-text-color: #567482;
+
+/* Borders */
+$border-color: #dce6f0;
+$table-border-color: #e9ebec;
+$hr-border-color: #eff0f1;
+
+$nav-text-color: #aaaaaa;
+$nav-active-color: #ffffff;
+$nav-hover-color: lighten($nav-text-color, 50%);
+
+// link colors
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&family=Red+Hat+Display&display=swap');
+
+@import "{{ site.theme }}";
+
+
+
+#logo {
+    max-width: 832px;
+}
+//tablet screen 
+
+@media screen and (max-width: 1491px){
+    //body
+    .body-left, .body-right, .project-mic, .project-pen,.project-quote{
+        display: none;
+    }
+     .circle-photo-big,.circle-photo-small,.circle-project{
+        display: none;
+    }
+    .header.page-header-project{
+        height: 20px !important;
+    }
+    //screens
+    
+    // .resources-img,.about-banner{
+    //     display: none;
+    // }
+}
+// Mobile screen
+@media screen and (max-width: 800px){
+    //nav
+
+    .wrapper {
+       
+        z-index: 1;
+        .h-logo{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav {
+            background: rgba(rgb(0, 0, 0), 1);
+            ul.nav-menu {
+                
+                text-align: center;
+                padding-top: 50px;
+                font-size: 11px;
+                
+        }
+    }
+}
+
+    //banner
+
+    .page-header {
+        margin-top: 7.6em !important;
+        height: 330px !important;
+    }
+
+    //body
+    .body-left, .body-right{
+        display: none;
+    }
+
+    //footer
+    .f-title{
+        font-size: 1.8em;
+    }
+    .f-desc{
+        font-size: 16px !important; 
+    }
+    .f-text{
+        grid-template-rows: 50px 180px 10px !important;
+    }
+    .left-banner, .right-banner{
+        display: none;
+    }
+    
+    .footerLogo{
+        height: 25px !important;
+    }
+    .about-banner{
+        display: none;
+    }
+    .about-tagline{
+        position: absolute;
+        top: 120px;
+        left: -250px;
+        width: 300px;
+        
+        h1{
+            font-size: 28px !important;
+        }
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .resources-tagline{
+        position: absolute;
+        top: 120px;
+        left: -250px;
+        width: 300px;
+        
+        h1{
+            font-size: 28px !important;
+        }
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .project-tagline{
+        position: absolute;
+        top: 120px;
+        left: -150px;
+        width: 300px !important;
+        
+        h1{
+            font-size: 28px !important;
+        }
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .header.page-header-project{
+        height: 20px !important;
+    }
+    .circle-photo{
+        display: none;
+    }
+    .resources-img{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+  #logo {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 948px) {
+    #logo {
+      max-width: 100%;
+    }
+  }
+
+body {
+    background: #ffffff;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.overflow{
+    margin-top: 25px !important;
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #151515; 
+   font-family: 'Red Hat Display';
+}
+p{
+    font-family: 'Red Hat Text';
+}
+
+.page-header {
+    display: flex;
+    margin-top: 4em;
+    background-image: url('{{ site.baseurl }}/assets/images/contributor-link-header.png');
+    height: 430px;
+    overflow: hidden;
+}
+//About page
+header.page-header-about{
+    margin-top: 4rem;
+    background-color: #F2F2F2;
+    height: 430px;  
+   
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+   
+
+
+    
+}
+
+.about-banner{
+    position: absolute;
+    right: -110px;
+    width: 809px;
+    height: 420px;
+    overflow: hidden;
+    clip: rect(0px,699px,1000px,0px);
+    
+    
+}
+
+.circle-photo{
+   margin-right: 370px;
+
+    height: 451px;
+    width: 451px;
+    border-radius: 50%;
+    margin-top: 5px;
+    box-shadow: -15px 8px 0 3px #2F7879;
+    z-index: 1;
+}
+.about-tagline{
+    background-color: #F2F2F2;
+    margin: 30px 300px 30px;
+
+    height: 300px;  
+    z-index: 1;
+    
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+// About page end
+
+//projects page
+header.page-header-project{
+    margin-top: 4em;
+    background-color: #FFFFFF;
+    height: 630px;
+    overflow: hidden;
+   
+}
+
+.circle-photo-small{
+    position: absolute;
+    height: 224px;
+    width: 224px;
+    right: 35vw;
+    border-radius: 50%;
+    margin-top: 10vh;
+    z-index: 1;
+    
+}
+.circle-photo-big{
+    position: absolute;
+    height: 338px;
+    width: 338px;
+    right: 15vw;
+    border-radius: 50%;
+    margin-top: 20vh;
+    
+}
+.circle-project{
+    position: absolute;
+    margin-left: 58vw;
+    margin-top: 100px;
+    height: 338px;
+    width: 338px;
+    background-color:#F2F2F2 ;
+    border-radius: 50%;
+
+}
+.project-pen{
+    position:absolute;
+    margin-left: 70vw;
+    margin-top: 5vw;
+    
+}
+.project-quote{
+    position:absolute;
+    margin-left: 50vw;
+    margin-top: 4vw;
+}
+.project-mic{
+    position:absolute;
+    margin-left: 63vw;
+    margin-top: 23vw;
+}
+.project-tagline{
+    width: 500px;
+    opacity: 1;
+    margin-left: 200px;
+    margin-top: 50PX;
+    background-color: #FFFFFF; 
+    z-index: 1;
+    
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+
+//projects end
+
+
+//resources page
+
+header.page-header-resources{
+    margin-top: 4em;
+    background-color: #F2F2F2;
+    height: 430px;
+    overflow: hidden;
+   
+}
+.resources-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resources-tagline{
+    margin: 30px 300px 30px;
+    background-color: #F2F2F2;
+    height: 300px;  
+    flex: 50%;
+    z-index: 1;
+    
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.resources-img{
+    margin-right: 200px;
+    margin-top: 70px;
+
+
+}
+//resources end
+
+
+a {
+  color: rgba(76, 139, 140, 1);
+}
+
+a:hover {
+  text-decoration-color: rgba(76, 139, 140, 0.5);
+}
+
+
+
+.h-logo{
+    position: absolute;
+    padding-top: 10px;
+    left: 109px;
+    width: 150px;
+}
+
+//nav bar
+.wrapper {
+    line-height: 72px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    nav {
+        background: rgba(rgb(0, 0, 0), 1);
+        ul.nav-menu {
+            margin: 0;
+            text-align: right;
+            margin-right: 5em;
+            li {
+                display: inline;
+                list-decoration: none;
+                font-size: 110%;
+                font-weight: 600;
+                margin: 0 2em 0 0.5em;
+                #{$a-tags} {
+                    color: $nav-text-color;
+                    text-decoration: none;
+                }
+                #{$a-tags-hover} {
+                    color: $nav-hover-color;
+                }
+	        }
+    	    li.active {
+	    	    #{$a-tags} {
+                    color: $nav-active-color;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    height: 72px;
+	background-color: $footer-body;
+	text-decoration: none;
+    opacity: 1;
+    
+}
+
+.footerLogo{
+    margin-top: 20px ;
+    height: 30px;  
+}  
+
+.footerLink{
+    padding-top: 20px;
+    height: 355px;
+    background-color: #F0F0F0;
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    
+
+}
+
+.left-banner{
+    position: absolute;
+    height: 355px;
+    opacity: 0.9;
+    width: 666px;
+    left: -241px;
+    
+ 
+}
+.right-banner{
+    top: 0px;
+    position: absolute;
+    height: 350px;
+    opacity: 0.9;
+    right: -241px;
+    width: 666px;
+}
+
+
+.f-text{
+    padding-top: 10px;
+    text-align: center;
+    display: grid;
+    color: #151515;
+    grid-template-columns: auto  ;
+    grid-template-rows: 60px 120px 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+       
+}
+
+.f-title{
+    display: grid;
+    color: #151515;
+    font-size: 28px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.f-desc{
+    color: #151515;
+    font-size: 18px;    
+    width: 50%;
+}
+
+.footer-button{
+    border: 2px;
+    border: 2px solid #151515;
+    color: #151515;
+    height: 56px;
+    width: 152px;
+    background-color: #F0F0F0;
+   
+}
+
+.body-left{
+    position: absolute;
+    top: 904px;
+    left: -37px;
+    width: 360px;
+    height: 310px;
+    z-index: -1;
+}
+.body-right{
+    position: absolute;
+    top: 596px;
+    right: -37px;
+    width: 360px;
+    height: 308px;
+    z-index: -1;
+    clip: rect(0px,323px,1000px,0px);
+}
+
+
+//card
+
+.main-project{
+    display: flex;
+    margin-left: 10%;
+}
+.project-body{
+   
+}
+
+
+.card-body{
+    padding: 0.5rem;
+    p{
+        font-size: 22px;
+    }
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-content: flex-start;
+}
+.card-item{
+    display: flex;
+    padding: 1rem;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: solid 2px;
+    border-width: thin;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+  }
+.card-header{
+    overflow: hidden;
+    position: relative;
+    background-color: #2F7879;
+    color: #f3f6fa;
+    padding-left: 10px;
+    
+    
+      
+  }
+.card-width{
+    
+}  
+.card-title {
+   
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+.card-title.active{
+    visibility: visible;
+    z-index: 1;
+}
+  
+  .card-text {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+  }
+  .btn {
+    background-color: white;
+    //border-radius: 1rem;
+    padding: 0.5rem;
+    text-transform: lowercase;
+  }
+  
+  .card-link {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+  
+  }
+  .card-modal{
+      visibility: hidden;
+      position: absolute;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      background-color:gold ;
+  }
+  .card-modal.active{
+      visibility: visible;
+      z-index: 1;
+  }
+

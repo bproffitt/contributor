@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <script src="{{ "/assets/main.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">var test = document.getElementsByClassName('card-link');
+      test.onclick = function() {
+          console.log('Hello');
+      }</script>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#25222c">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+	  
+      {% if site.data.navigation %}
+
+        <div class="wrapper">
+          <img class="h-logo" src="{{ site.hlogo }}">
+
+          <div class="nav-wrap">
+            
+            {% include nav.html role="navigation" %}
+          </div>
+        </div>
+	
+      {% endif %}
+	  
+    <header class="page-header-project" role="banner">
+        
+        <span class="circle-project"></span>
+        <img class="circle-photo-small" src="assets/images/CC-women-entreprenurs.png">
+        <img class="circle-photo-big" src="assets/images/5404766001_f6c4b44db4_b.png">
+        <img class="project-pen" src="assets/images/pen.svg">
+        <img class="project-mic" src="assets/images/mic.svg">
+        <img class="project-quote" src="assets/images/quote.svg">
+
+      <div class="project-tagline">  
+      <h1>Building stronger communities</h1>  
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis provident impedit quisquam, suscipit quo officia. </p>
+       </div>
+       
+     
+    </header>
+
+
+
+    <main id="content" class="main-project" role="main">
+     
+      <div class="project-body"> 
+      </div>
+
+      <div class="card-width">
+        {% include cards.html %}
+
+      </div>
+
+    </main>
+ 
+  </body>
+  {% include footer.html %}
+</html>

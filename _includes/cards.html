@@ -1,0 +1,38 @@
+{% assign cards = include.cards | default: site.data.projects %}
+<script src="{{ "/assets/main.js" | prepend: site.baseurl }}"></script>
+
+
+<ul class="cards">
+    {% for card in cards %} 
+        {% capture vars %}
+    
+          {% assign card_label = card.name  %}
+          {% assign card_desc = card.description  %}
+          {% assign card_alt = '' %}
+       
+        {% endcapture %}{% assign vars = nil %}
+    <li class="card-item">
+      <div class="card">
+        <div class="card-header card-header-name">FOI</div>
+        <div class="card-content">
+          <div class="card-title">{{ card_label | strip }}</div>
+          <p class="card-text">{{ card_desc | strip }} </p>
+          <a class="card-link">view more</a>
+        </div>
+
+        
+        </div>
+       
+      
+    </li>
+    <div class="card-modal">
+      <div class="modal-title">
+        <h3>{{ card_label }}</h3>
+        <button class="close">x</button>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est consequuntur hic veritatis quos incidunt saepe praesentium optio suscipit, consequatur maiores.</p>
+      </div>
+  </div>
+
+    
+    {% endfor %}
+</ul>

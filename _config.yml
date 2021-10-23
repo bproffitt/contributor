@@ -1,0 +1,20 @@
+theme: jekyll-theme-cayman
+hlogo: /assets/images/logo - light - stacked.svg
+logo: /assets/images/logo - light - horizontal.svg
+title: Contributor.Link
+baseurl: "" 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "projects"
+
+

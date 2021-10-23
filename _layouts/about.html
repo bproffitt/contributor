@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    <meta charset="UTF-8">
+
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#25222c">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+	  
+      {% if site.data.navigation %}
+
+        <div class="wrapper">
+          <img class="h-logo" src="{{ site.hlogo }}">
+
+          <div class="nav-wrap">
+            
+            {% include nav.html role="navigation" %}
+          </div>
+        </div>
+	
+      {% endif %}
+	  
+    <header class="page-header-about" role="banner">
+      <div class="about-container">
+        <div class="about-tagline">  
+          <h1>Building stronger communities</h1>  
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis provident impedit quisquam, suscipit quo officia. </p>
+           </div>
+        <div class="circle-photo" >
+          <img src="assets/images/CC-computer-collab.png">
+        </div>
+       <div class="about-banner"> <img class="about-banner" src="assets/images/Mask Group 3.png"></div>
+       </div>
+    </header>
+
+
+
+    <main id="content" class="main-content" role="main">
+     
+      <div class="overflow"> {{ content }}
+      </div>
+
+     
+
+    </main>
+ 
+  </body>
+  {% include footer.html %}
+</html>
