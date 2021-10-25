@@ -4,7 +4,7 @@
 
 <ul class="cards">
     {% for card in cards %} 
-    {% if card.display == true %}
+    {% if card.display == true and card.skills_needed contains "designer" "UX" %}
         {% capture vars %}
     
           {% assign card_label = card.name  %}

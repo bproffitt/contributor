@@ -1,0 +1,16 @@
+{% assign filter = include.filter | default: site.data.filters %}
+
+<ul class="filter-menu">
+    {% for cat in filters %}
+    {% capture vars %}
+        {% assign name = cat.name%}
+        {% assign url = cat.url%}
+    {% endcapture %}
+    {% assign vars = nil %}  
+
+  <li class="cat-menu">
+      
+      <a href="{{ url | prepend: baseurl }}">{{name}}</a>
+  </li>
+  {%endfor%}
+</ul>

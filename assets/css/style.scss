@@ -553,20 +553,19 @@ footer {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
-    padding: 0;
     align-content: flex-start;
 }
 .card-item{
     display: flex;
     padding: 1rem;
+   
     
 }
 .card{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 300px;
+    width: 33vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -612,7 +611,7 @@ footer {
     margin-bottom: 1.25rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+   
     overflow: hidden;
   }
   .btn {
@@ -640,5 +639,41 @@ footer {
   .card-modal.active{
       visibility: visible;
       z-index: 1;
+  }
+  
+  //filter
+  .filter_box{
+      position: relative;
+      width: 100vw;
+      margin-top: 3rem;
+      height: 30rem;
+      border: solid 2px;
+      ul{
+        margin-top: 9rem;
+        list-style-type: none;
+        line-height: 3rem;
+        text-align: center;
+      }
+   
+  }
+
+  .filter_header{
+      position: absolute;
+      background-color: #D2D2D2;
+      margin-top: 0;
+      width: 100%;
+      h2{
+          text-align: center;
+      }  
+  }
+
+  .contri_type{
+      position: absolute;
+      margin-top: 5rem;
+      h3{
+          margin-left: 2.7rem;
+          text-align: center;
+          color: #000000;
+      }
   }
 

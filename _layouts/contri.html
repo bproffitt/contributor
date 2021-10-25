@@ -1,0 +1,23 @@
+---
+layout: essential
+---
+	  
+      {% if site.data.navigation %}
+
+        <div class="wrapper">
+          <img class="h-logo" src="{{ site.hlogo }}">
+
+          <div class="nav-wrap">
+            
+            {% include nav.html role="navigation" %}
+          </div>
+        </div>
+	
+      {% endif %}
+      
+      {{ content }}
+    
+    
+  {% include footer-banner.html %}
+  </body>
+  {% include footer.html %}
