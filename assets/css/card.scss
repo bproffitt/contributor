@@ -1,0 +1,147 @@
+.main-project{
+    display: flex;
+    margin-left: 10%;
+}
+.project-body{
+   
+}
+
+
+.card-body{
+    padding: 0.5rem;
+    p{
+        font-size: 22px;
+    }
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-content: flex-start;
+}
+.card-item{
+    display: flex;
+    padding: 1rem;
+   
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: solid 2px;
+    border-width: thin;
+   height: 20rem;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+    
+  }
+.card-header{
+    overflow: hidden;
+    position: relative;
+    background-color: #2F7879;
+    color: #f3f6fa;
+    padding-left: 10px;
+    height: 2.8rem;
+    h3{
+        letter-spacing: .3rem;
+        position: absolute;
+        top: -0.6rem;
+        text-align: left;
+        color: white;
+    }
+    
+    
+      
+  }
+
+.card-title {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+
+  .card-text {
+      margin-top: 1.5rem;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+  }
+  .btn {
+    background-color: white;
+    //border-radius: 1rem;
+    padding: 0.5rem;
+    text-transform: lowercase;
+  }
+  
+  .card-link {
+      margin-top: 1.5rem;
+    display: block;
+    font-size: 1.3rem;
+    width: 100%;
+    cursor: pointer;
+  
+  }
+  .card-modal{
+      border: solid 5px;
+     margin-right: 2rem;
+      position: fixed;
+      height: max-content;
+      z-index: 1; /* Sit on top */
+        margin-top: 5rem; /* Location of the box */
+        right: 20rem;
+        top: 3rem;
+        width: 50rem;
+     
+        overflow: hidden; /* Enable scroll if needed */
+        background-color: white;
+  }
+   .hide{
+    display: none;
+
+  }
+  .blanket{
+      background-color: black;
+      opacity: 0.5;
+  }
+ .modal-title{
+     display: flex;
+     margin-top: 0.3rem;
+     margin-left: 1rem;
+     a{
+         position: absolute;
+         right: 1em;
+         top: 0;
+         font-size: 2em;
+         cursor: pointer;
+     }
+    
+ }
+ .active1{
+     border: solid ;
+     
+     a{
+        font-weight: bolder; 
+        color: black;
+     }
+     
+ }
+

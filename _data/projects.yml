@@ -1,171 +1,209 @@
 - display: true
   name: AID
+  UID: a
   url: https://aid.autoai.org/
   contact_name: Xiaozhe Yao
   contact_info:
   skills_needed: React front-end developers, golang back-end developers
+  interest: technology
   description: |
     A package manager for Machine Learning that manages the download, install and run of machine learning algorithms.
 
 - display: true
+  UID: b
   name: Arbor Chat
   url: https://arbor.chat/
   contact_name: Chris Waldon
   contact_info: christopher.waldon.dev@gmail.com
   skills_needed: Golang software developers, UX designer, technical writers
+  interest: technology
   description: |
       Arbor is a free and open chat system structured to provide clear, high-context communication in a user-respecting way.
 
 - display: true
   name: Augur
+  UID: c
   url: https://augurlabs.io/
   contact_name: Sean Goggins
   contact_info: s@goggins.com
   skills_needed: Testing, documentation, deployment, marketing, software engineering (debugging), front end design
+  interest: technology
   description: |
       We are an open source software health and sustainability project, affiliated with the CHAOSS Project.
 
 - display: true
   name: Cboard
+  UID: d
   url: https://github.com/cboard-org/cboard
   contact_name: Martin Bedouret
   contact_info: martinbedouret@gmail.com
   skills_needed: Marketing/social media content creators, code contributors, proofreaders
+  interest: education
   description: |
     Cboard is an Augmentative and Alternative Communication (AAC) web app for children and adults with speech and language impairments, aiding communication with symbols and text-to-speech. This versatile application has been designed with the support of UNICEF and provides a unique voice for those who wish to communicate using the application’s language platform.
 
--
 
 - display: true
   name: Elün
+  UID: e
   url: https://ingenieria.udd.cl/centroid/laboratorios-de-investigacion/extreme-environmental-lab/#!/modal/272/elun-sistema-colaborativo-de-monitoreo-para-areas-protegidas-de-chile
   contact_name: Javiera de la Fuente
   contact_info: jdelafuentec@udd.cl
   skills_needed: AI developers, marketing specialists, graphic designers
+  interest: environment
   description: |
     Elün proposes the use of photos taken by visitors of Protected Areas, plus information provided by their cell phone sensors, to create a monitoring system. Which will be aimed at research and subsequent decision-making for the conservation of biodiversity in these places. The concept of participation is called «Citizen Science». The project includes the creation of a system that processes the images obtained through image recognition. It proposes an interface (web) that organizes the information temporally and geographically for the dissemination and analysis of experts and enthusiasts.
 
 - display: true
+  UID: f
   name: Fedora
   url: https://web.libera.chat/#fedora-join
   contact_name: Máirín Duffy
   contact_info: duffy@redhat.com
   skills_needed: Developers, marketing specialists, graphic designers
+  interest: technology
   description: |
     The Fedora Join Special Interest Group (SIG) aims to set up and maintain channels that let prospective contributors engage with the community. The Fedora Join SIG enables people looking to join the Fedora community to converse with existing members, make friends, find mentors, and get a feeling of what and how the community does in general. The Join group also helps connect folks with first tasks for contribution.
- 
+
 - display: true
   name: ChRIS
+  UID: g
   url: http://chrisproject.org
   contact_name: Máirín Duffy
   contact_info: duffy@redhat.com
   skills_needed: Front end developers, openstack/openshift devops, docs, UX
+  interest: medical
   description: |
     ChRIS is a general-purpose, open source distributed data and computation platform primarily aimed at improving medical research.
 
 - display: true
   name: Eclipse Che
+  UID: h
   url: https://github.com/eclipse/che/blob/master/CONTRIBUTING.md
   contact_name: Mario Loriedo
   contact_info: mloriedo@redhat.com
   skills_needed: Documentation writers, testers, code contributors
+  interest: technology
   description: |
     Cloud IDE manager for development teams.
-    
-- name: Gluster
+
+- display: true
+  name: Gluster
+  UID: i
   url: https://www.gluster.org/community/
   contact_name: Saju
   contact_info: sajmoham@redhat.com
   skills_needed: Linux system programmers
+  interest: technology
   description: |
     Gluster is a scalable, distributed file system that aggregates disk storage resources from multiple servers into a single global namespace.
 
 - display: true
   name: LibreOffice
+  UID: j
   url: https://www.libreoffice.org/community/get-involved/
   contact_name: Mike Saunders
   contact_info: mike.saunders@documentfoundation.org
   skills_needed: Developers, designers, testers, translators, doucumentation writers, and help with marketing and infrastructure
+  interest: technology
   description: |
     Free and open source office suite – successor to OpenOffice(.org).
 
 - display: true
   name: Meshery
+  UID: k
   url: https://layer5.io/community/newcomers
   contact_name: Lee Calcote
   contact_info: lee.calcote@layer5.io
   skills_needed: Community managers and ambassadors, documentation using video and other media, user ambassadors (designing new user guides and example flows for how to use the project), bloggers, technical writers
+  interest: technology
   description: |
     Meshery is the open source, service mesh management plane for enabling the adoption, operation, and management of any service mesh and their workloads.
 
 - display: true
   name: Project Thoth
+  UID: l
   url: https://github.com/thoth-station
   contact_name: Christoph Goern
   contact_info: goern@redhat.com
   skills_needed: Python developers, machine learning developers, cloud native devops
+  interest: technology
   description: |
     Using Artificial Intelligence to analyse and recommend Software Stacks for Artificial Intelligence applications.
 
 - display: true
   name: qAIRaMap Open Source
+  UID: m
   url: https://qaira.github.io/
   contact_name: Sabrina Campos
   contact_info: s.campos@qairadrones.com
   skills_needed: UX, UI, documentation, localization, developers
+  interest: environmental
   description: |
     qAIRaMap Open Source is a project developed with the mentorship of UNICEF that is based in two repositories. It’s a real-time website for monitoring air quality and it consists of the following features: Real-time data from qHAWAX modules and Andean drones; downloading of historic data; and visualization of results in Google Maps.
 
 - display: true
   name: QIoT Project
+  UID: n
   url: https://qiot-project.github.io/
   contact_name: Andrea Battaglia
   contact_info: andrea.battaglia@redhat.com
   skills_needed: Quarkus developers, Web developers
+  interest: technology
   description: |
     The “Quarkus meets IoT” community project puts together subject matter experts from the Quarkus area and the IoT / Edge Computing area to PoC use cases from the datacenter side to the IoT device side using Quarkus and a bunch of enterprise products from the Red Hat portfolio.
 
 - display: true
   name: The Qubinode
+  UID: o
   url: https://www.qubinode.io/
   contact_name: Rodrique Heron
   contact_info: rheron@redhat.com
   skills_needed: Testing infrastuture experts, CI/CD pipeline
+  interest: technology
   description: |
     Our project aims to make it easy for anyone to set up an OpenShift cluster. Red Hat has a ton of solutions for OpenShift in the cloud, but on-prem requires expensive hardware, proprietary software licensing, subscriptions, some consulting time and expertise to set things up given the complexity of the technology. This creates a barrier to entry for most people who are curious and/or wanting to explore at home or in the lab. To solve this problem, we developed the Qubinode. It is an easy to set up development kit powered by Red Hat products.
 
 - display: true
   name: ScioXR
+  UID: p
   url: https://www.scioxr.com
   contact_name: Adrian Djura
   contact_info: adrian.djura@gmail.com
   skills_needed: Unity developers, documentation writers, user testing
+  interest: education
   description: |
-    ScioXR is a platform for creating content for XR in an easy way. The visual programming language is inspired by Scratch so that the teachers and kids can create content and games for learning. The platform is targeting all major VR/AR headsets and WebXR. 
+    ScioXR is a platform for creating content for XR in an easy way. The visual programming language is inspired by Scratch so that the teachers and kids can create content and games for learning. The platform is targeting all major VR/AR headsets and WebXR.
 
 - display: true
   name: Stopgo
+  UID: q
   url: https://gitlab.com/makerbox/stopgo2
   contact_name: Seth Kenlon
   contact_info: seth@opensource.com
   skills_needed: Java developers, UI developers (not UX)
+  interest: multimedia
   description: |
     Stop-motion animation application for kids.
 
 - display: true
   name: TaskODrill
+  UID: r
   url: https://github.com/fcano/taskodrill
   contact_name: Florencio Cano
   contact_info: fcanogab@redhat.com
   skills_needed: Mobile apps developers (Android and iOS), UI/UX, designers, and functionality developers
+  interest: technology
   description: |
     The task management application you will love. Know what to do. Don’t be afraid of forgetting something. Achieve peace of mind.
 
 - display: true
   name: VRapeutic
+  UID: s
   url: https://www.facebook.com/myvrapeutic/
   contact_name: Ahmad Al-Kabbany
   contact_info: alkabbany@myvrapeutic.com
   skills_needed: Copywriters, graphic designers, web designers, web developers, concept artists, game designers, marketing specialists, medical sales specialists, digital marketing professionals, UI/UX specialists, explainer video designers and editors
+  interest: education, medical
   description: |
     We are a UNICEF Innovation Fund portfolio software house specializing in developing rehabilitation and therapeutic solutions, with a focus on learning and developmental challenges.

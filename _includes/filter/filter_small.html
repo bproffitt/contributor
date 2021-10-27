@@ -1,0 +1,32 @@
+<div class="filter_box_small"> 
+    <div class="filter_header">
+      <h2>Filter</h2>
+    </div>
+    <div class="contri_type">
+      <h3>
+        Contributor Type
+      </h3>
+
+    </div>
+    <ul class="filter">
+      <li {% if page.url contains "developer" %} class="active1" {% endif%}><a href="{% link developers.md %}" >Developers</a> </li>
+      <li {% if page.url contains "designer" %} class="active1" {% endif%}><a href="{% link designers.md %}" >Designers</a> </li>
+      <li {% if page.url contains "writer" %} class="active1" {% endif%}><a href="{% link content_writer.md %}" >Content Writer</a> </li>
+      <li {% if page.url contains "project" %} class="active1" {% endif%}><a href="{% link projects.md %}" >All</a> </li>
+  </ul>
+  <hr>
+  <div class="FOI_type">
+      <h3>
+        Field Of Interest
+      </h3>
+  
+    </div>
+    <ul class="filter">
+      <li {% if page.url contains "education" %} class="active1" {% endif%}><a href="{% link FOI_education.md %}" >Education</a> </li>
+      <li {% if page.url contains "environment" %} class="active1" {% endif%}><a href="{% link FOI_environmental.md %}" >Environment</a> </li>
+      <li {% if page.url contains "medical" %} class="active1" {% endif%}><a href="{% link FOI_medical.md %}" >Medical</a> </li>
+      <li {% if page.url contains "multimedia" %} class="active1" {% endif%}><a href="{% link FOI_multimedia.md %}" >Multimedia</a> </li>
+      <li {% if page.url contains "technology" %} class="active1" {% endif%}><a href="{% link FOI_technology.md %}" >Technology</a> </li>
+      <li {% if page.url contains "project" %} class="active1" {% endif%}><a href="{% link projects.md %}" >All</a> </li>
+    </ul>
+  </div>

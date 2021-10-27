@@ -1,4 +1,5 @@
 ---
+layout: 
 ---
 
 {% include_relative vendor/jquery.js %}

@@ -2,6 +2,8 @@
 ---
 /* These are variables the Cayman theme defines */
 
+
+
 /* Headers */
 $header-heading-color: #ffffff;
 $header-bg-color: #ffffff;
@@ -35,8 +37,14 @@ $a-tags-hover: 'a:active, a:hover';
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&family=Red+Hat+Display&display=swap');
 
 @import "{{ site.theme }}";
-
-
+@import "about-page";
+@import "project-page";
+@import "resources-page";
+@import "nav";
+@import "footer";
+@import "card";
+@import "filter";
+@import "home";
 
 #logo {
     max-width: 832px;
@@ -206,474 +214,29 @@ p{
     font-family: 'Red Hat Text';
 }
 
-.page-header {
-    display: flex;
-    margin-top: 4em;
-    background-image: url('{{ site.baseurl }}/assets/images/contributor-link-header.png');
-    height: 430px;
-    overflow: hidden;
-}
 //About page
-header.page-header-about{
-    margin-top: 4rem;
-    background-color: #F2F2F2;
-    height: 430px;  
-   
-}
-.about-container{
-    display: flex;
-    justify-content: space-between;
-   
 
-
-    
-}
-
-.about-banner{
-    position: absolute;
-    right: -110px;
-    width: 809px;
-    height: 420px;
-    overflow: hidden;
-    clip: rect(0px,699px,1000px,0px);
-    
-    
-}
-
-.circle-photo{
-   margin-right: 370px;
-
-    height: 451px;
-    width: 451px;
-    border-radius: 50%;
-    margin-top: 5px;
-    box-shadow: -15px 8px 0 3px #2F7879;
-    z-index: 1;
-}
-.about-tagline{
-    background-color: #F2F2F2;
-    margin: 30px 300px 30px;
-
-    height: 300px;  
-    z-index: 1;
-    
-    h1{
-        font-size: 38px;
-    }
-    p{
-        font-size: 18px;
-    }
-}
 // About page end
 
 //projects page
-header.page-header-project{
-    margin-top: 4em;
-    background-color: #FFFFFF;
-    height: 630px;
-    overflow: hidden;
-   
-}
 
-.circle-photo-small{
-    position: absolute;
-    height: 224px;
-    width: 224px;
-    right: 35vw;
-    border-radius: 50%;
-    margin-top: 10vh;
-    z-index: 1;
-    
-}
-.circle-photo-big{
-    position: absolute;
-    height: 338px;
-    width: 338px;
-    right: 15vw;
-    border-radius: 50%;
-    margin-top: 20vh;
-    
-}
-.circle-project{
-    position: absolute;
-    margin-left: 58vw;
-    margin-top: 100px;
-    height: 338px;
-    width: 338px;
-    background-color:#F2F2F2 ;
-    border-radius: 50%;
-
-}
-.project-pen{
-    position:absolute;
-    margin-left: 70vw;
-    margin-top: 5vw;
-    
-}
-.project-quote{
-    position:absolute;
-    margin-left: 50vw;
-    margin-top: 4vw;
-}
-.project-mic{
-    position:absolute;
-    margin-left: 63vw;
-    margin-top: 23vw;
-}
-.project-tagline{
-    width: 500px;
-    opacity: 1;
-    margin-left: 200px;
-    margin-top: 50PX;
-    background-color: #FFFFFF; 
-    z-index: 1;
-    
-    h1{
-        font-size: 38px;
-    }
-    p{
-        font-size: 18px;
-    }
-}
 
 //projects end
 
 
 //resources page
 
-header.page-header-resources{
-    margin-top: 4em;
-    background-color: #F2F2F2;
-    height: 430px;
-    overflow: hidden;
-   
-}
-.resources-container{
-    display: flex;
-    justify-content: space-between;
-}
-.resources-tagline{
-    margin: 30px 300px 30px;
-    background-color: #F2F2F2;
-    height: 300px;  
-    flex: 50%;
-    z-index: 1;
-    
-    h1{
-        font-size: 38px;
-    }
-    p{
-        font-size: 18px;
-    }
-}
-.resources-img{
-    margin-right: 200px;
-    margin-top: 70px;
 
-
-}
 //resources end
 
-
-a {
-  color: rgba(76, 139, 140, 1);
-}
-
-a:hover {
-  text-decoration-color: rgba(76, 139, 140, 0.5);
-}
-
-
-
-.h-logo{
-    position: absolute;
-    padding-top: 10px;
-    left: 109px;
-    width: 150px;
-}
-
-//nav bar
-.wrapper {
-    line-height: 72px;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    nav {
-        background: rgba(rgb(0, 0, 0), 1);
-        ul.nav-menu {
-            margin: 0;
-            text-align: right;
-            margin-right: 5em;
-            li {
-                display: inline;
-                list-decoration: none;
-                font-size: 110%;
-                font-weight: 600;
-                margin: 0 2em 0 0.5em;
-                #{$a-tags} {
-                    color: $nav-text-color;
-                    text-decoration: none;
-                }
-                #{$a-tags-hover} {
-                    color: $nav-hover-color;
-                }
-	        }
-    	    li.active {
-	    	    #{$a-tags} {
-                    color: $nav-active-color;
-                }
-            }
-        }
-    }
-}
-
-footer {
-    text-align: center;
-    height: 72px;
-	background-color: $footer-body;
-	text-decoration: none;
-    opacity: 1;
-    
-}
-
-.footerLogo{
-    margin-top: 20px ;
-    height: 30px;  
-}  
-
-.footerLink{
-    padding-top: 20px;
-    height: 355px;
-    background-color: #F0F0F0;
-    position: relative;
-    display: grid;
-    overflow: hidden;
-    
-
-}
-
-.left-banner{
-    position: absolute;
-    height: 355px;
-    opacity: 0.9;
-    width: 666px;
-    left: -241px;
-    
- 
-}
-.right-banner{
-    top: 0px;
-    position: absolute;
-    height: 350px;
-    opacity: 0.9;
-    right: -241px;
-    width: 666px;
-}
-
-
-.f-text{
-    padding-top: 10px;
-    text-align: center;
-    display: grid;
-    color: #151515;
-    grid-template-columns: auto  ;
-    grid-template-rows: 60px 120px 100px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-items: center;
-       
-}
-
-.f-title{
-    display: grid;
-    color: #151515;
-    font-size: 28px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-
-.f-desc{
-    color: #151515;
-    font-size: 18px;    
-    width: 50%;
-}
-
-.footer-button{
-    border: 2px;
-    border: 2px solid #151515;
-    color: #151515;
-    height: 56px;
-    width: 152px;
-    background-color: #F0F0F0;
-   
-}
-
-.body-left{
-    position: absolute;
-    top: 904px;
-    left: -37px;
-    width: 360px;
-    height: 310px;
-    z-index: -1;
-}
-.body-right{
-    position: absolute;
-    top: 596px;
-    right: -37px;
-    width: 360px;
-    height: 308px;
-    z-index: -1;
-    clip: rect(0px,323px,1000px,0px);
-}
 
 
 //card
 
-.main-project{
-    display: flex;
-    margin-left: 10%;
-}
-.project-body{
-   
-}
 
-
-.card-body{
-    padding: 0.5rem;
-    p{
-        font-size: 22px;
-    }
-    
-}
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    align-content: flex-start;
-}
-.card-item{
-    display: flex;
-    padding: 1rem;
-   
-    
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    width: 33vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border: solid 2px;
-    border-width: thin;
-}
-.card-content {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    
-  }
-.card-header{
-    overflow: hidden;
-    position: relative;
-    background-color: #2F7879;
-    color: #f3f6fa;
-    padding-left: 10px;
-    
-    
-      
-  }
-.card-width{
-    
-}  
-.card-title {
-   
-    font-size: 1.25rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-.card-title.active{
-    visibility: visible;
-    z-index: 1;
-}
   
-  .card-text {
-    flex: 1 1 auto;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    margin-bottom: 1.25rem;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-   
-    overflow: hidden;
-  }
-  .btn {
-    background-color: white;
-    //border-radius: 1rem;
-    padding: 0.5rem;
-    text-transform: lowercase;
-  }
-  
-  .card-link {
-    display: block;
-    width: 100%;
-    cursor: pointer;
-  
-  }
-  .card-modal{
-      visibility: hidden;
-      position: absolute;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-      width: 300px;
-      background-color:gold ;
-  }
-  .card-modal.active{
-      visibility: visible;
-      z-index: 1;
-  }
-  
-  //filter
-  .filter_box{
-      position: relative;
-      width: 100vw;
-      margin-top: 3rem;
-      height: 30rem;
-      border: solid 2px;
-      ul{
-        margin-top: 9rem;
-        list-style-type: none;
-        line-height: 3rem;
-        text-align: center;
-      }
-   
-  }
 
-  .filter_header{
-      position: absolute;
-      background-color: #D2D2D2;
-      margin-top: 0;
-      width: 100%;
-      h2{
-          text-align: center;
-      }  
-  }
-
-  .contri_type{
-      position: absolute;
-      margin-top: 5rem;
-      h3{
-          margin-left: 2.7rem;
-          text-align: center;
-          color: #000000;
-      }
-  }
+  
+  //filter 
+  
 

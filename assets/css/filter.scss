@@ -1,0 +1,80 @@
+.filter_box{
+    position: relative;
+    width: 100rem;
+    left: -4rem;
+    margin-top: 2rem;
+    height: 46rem;
+    border: solid 2px;
+}
+.filter_box_small{
+  position: relative;
+  width: 55rem;
+  left: -4rem;
+  margin-top: 2rem;
+  height: 46rem;
+  border: solid 2px;
+  margin-bottom: 5rem;
+}
+.filter_box_large{
+    position: relative;
+    width: 171rem;
+    left: -4rem;
+    margin-top: 2rem;
+    height: 46rem;
+    border: solid 2px;
+    margin-bottom: 5rem;
+  }
+.filter_FOI_medium{
+  position: relative;
+  width: 20.8rem;
+  left: -4rem;
+  margin-top: 2rem;
+  height: 46rem;
+  border: solid 2px;
+  margin-bottom: 5rem;
+}
+
+
+.filter_FOI_small{
+  position: relative;
+  width: 27rem;
+  left: -4rem;
+  margin-top: 2rem;
+  height: 46rem;
+  border: solid 2px;
+}
+.filter{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: center;
+  line-height: 3rem;
+  text-align: center;
+  margin-right: 2.2rem;
+}
+
+.filter_header{
+    position: absolute;
+    background-color: #D2D2D2;
+    margin-top: 0;
+    width: 100%;
+    h2{
+        text-align: center;
+    }  
+}
+
+.contri_type{
+    position: relative;
+    margin-top: 6rem;
+    h3{
+        text-align: center;
+        color: #000000;
+    }
+}
+.FOI_type{
+  position: relative;
+  h3{
+      text-align: center;
+      color: #000000;
+  }
+}

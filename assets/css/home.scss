@@ -1,0 +1,42 @@
+
+.page-header {
+    display: flex;
+    margin-top: 4em;
+    background-image: url('/assets/images/contributor-link-header.png');
+    height: 430px;
+    overflow: hidden;
+}
+a {
+    color: rgba(76, 139, 140, 1);
+  }
+  
+  a:hover {
+    text-decoration-color: rgba(76, 139, 140, 0.5);
+  }
+  
+  .h-logo{
+      position: absolute;
+      padding-top: 10px;
+      left: 109px;
+      width: 150px;
+  }
+  
+  .body-left{
+      position: absolute;
+      top: 904px;
+      left: -37px;
+      width: 360px;
+      height: 310px;
+      z-index: -1;
+  }
+  .body-right{
+      position: absolute;
+      top: 596px;
+      right: -37px;
+      width: 360px;
+      height: 308px;
+      z-index: -1;
+      clip: rect(0px,323px,1000px,0px);
+  }
+  
+  

@@ -1,3 +1,3 @@
 ---
-layout: developers
+layout: filter_developers
 ---

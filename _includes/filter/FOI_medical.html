@@ -1,0 +1,81 @@
+{% assign cards = include.cards | default: site.data.projects %}
+
+
+<ul class="cards" id="cards">
+    {% for card in cards %} 
+    {% if card.display == true and card.interest contains "medical"%}
+        {% capture vars %}
+    
+          {% assign card_label = card.name  %}
+          {% assign card_desc = card.description  %}
+          {% assign card_skills = card.skills_needed  %}
+          {% assign card_FOI = card.interest %}
+       
+        {% endcapture %}
+       {% assign vars = nil %}
+    <li class="card-item" >
+      <div class="card">
+        <div class="card-header card-header-name"><h3>{{ card_FOI | upcase }}</h3></div>
+        <div class="card-content">
+          <div class="card-title">{{ card_label | strip }}</div>
+          <p class="card-text">{{ card_desc | strip }} </p>
+          <a class="card-link" id="{{card.UID}}" >view more-></a>
+         
+          <div class="card-modal hide" id="modal">
+            <div class="modal-title">
+             <div>
+              <h2>{{ card_label }} </h2>
+              <a class="close" id="close">x</a>
+              <p>{{card_desc}}</p>
+              <h3>Roles Needed </h3>
+              <p>{{card_skills}}</p>
+             </div>
+            </div>
+            
+            
+        </div>
+      
+        </div>
+
+        
+        </div>
+       
+      
+    </li>
+ 
+  
+ 
+  {% endif %}
+
+    {% endfor %}
+ 
+       
+ 
+</ul>
+<script>
+  // var btn = document.getElementById("{{card.UID}}").addEventListener("click", displayModal(a));
+  // var modal = document.getElementById("modal")
+  // var cards= document.getElementById("cards")
+  // var cardBG= document.getElementById("card_item")
+  // var span = document.getElementById("close");
+  // btn.onclick = function() {
+  //    modal.style.display="flex";
+  //    cardBG.style.opacity="0.2";
+
+    
+  // }
+  // span.onclick=function(){
+  //   modal.style.display="none";s
+  // }
+  // function displayModal(a){
+
+  // }
+
+  $(document).ready(function () {
+    $("a.card-modal").on("click", function () {
+        console.log("clicked");
+        $(this).next().removeClass("hide");
+    });
+});
+
+  </script>

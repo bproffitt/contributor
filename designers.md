@@ -1,3 +1,3 @@
 ---
-layout: designers
+layout: filter_designers
 ---

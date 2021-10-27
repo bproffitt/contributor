@@ -1,13 +1,13 @@
-<div class="filter_box"> 
-    <div class="filter_header">
-      <h2>Filter</h2>
-    </div>
-    <div class="contri_type">
-      <h3>
-        Contributor Type
-      </h3>
+<div class="filter_FOI_medium"> 
+  <div class="filter_header">
+    <h2>Filter</h2>
+  </div>
+  <div class="contri_type">
+    <h3>
+      Contributor Type
+    </h3>
 
-    </div>
+  </div>
   <ul class="filter">
     <li {% if page.url contains "developer" %} class="active1" {% endif%}><a href="{% link developers.md %}" >Developers</a> </li>
     <li {% if page.url contains "designer" %} class="active1" {% endif%}><a href="{% link designers.md %}" >Designers</a> </li>
@@ -30,18 +30,3 @@
     <li {% if page.url contains "project" %} class="active1" {% endif%}><a href="{% link projects.md %}" >All</a> </li>
   </ul>
 </div>
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script>
-   
-    
-      $(function () {
-       
-            $(location).attr('pathname');
-            console.log(location)
-            console.log("clicked");
-            $(this).next().removeClass("hide");
-        });
-  
-   
-   
-      </script>

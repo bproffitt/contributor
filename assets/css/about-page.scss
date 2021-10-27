@@ -1,0 +1,49 @@
+header.page-header-about{
+    margin-top: 4rem;
+    background-color: #F2F2F2;
+    height: 430px;  
+   
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+   
+
+
+    
+}
+
+.about-banner{
+    position: absolute;
+    right: -110px;
+    width: 809px;
+    height: 420px;
+    overflow: hidden;
+    clip: rect(0px,699px,1000px,0px);
+    
+    
+}
+
+.circle-photo{
+    margin-right: 370px;
+    height: 451px;
+    width: 451px;
+    border-radius: 50%;
+    margin-top: 5px;
+    box-shadow: -15px 8px 0 3px #2F7879;
+    z-index: 1;
+}
+.about-tagline{
+    background-color: #F2F2F2;
+    margin: 30px 300px 30px;
+
+    height: 300px;  
+    z-index: 1;
+    
+    h1{
+        font-size: 38px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
