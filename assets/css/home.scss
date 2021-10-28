@@ -1,10 +1,11 @@
 
 .page-header {
+    position: relative;
     display: flex;
-    margin-top: 4em;
+    
     background-image: url('/assets/images/contributor-link-header.png');
-    height: 430px;
-    overflow: hidden;
+    height: 530px;
+    overflow: hidden !important;
 }
 .iconBG{
     position: absolute;
@@ -12,16 +13,17 @@
     margin-top: 4.47rem;
     left: 0;
     overflow: hidden;
-    clip: rect(0px,1908px,1000px,0px);
+    clip: rect(0px,1909px,1000px,0px);
 }
 .overflow{
     margin-top: 25px !important;
+    overflow: hidden ;
 }
 .icon{
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+  
 }
 a {
     color: rgba(76, 139, 140, 1);
@@ -49,11 +51,11 @@ a {
   .body-right{
       position: absolute;
       top: 596px;
-      right: -37px;
+      right: 0px;
       width: 360px;
       height: 308px;
-      z-index: -1;
-      clip: rect(0px,323px,1000px,0px);
+    
+   
   }
   
   

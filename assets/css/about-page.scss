@@ -1,28 +1,27 @@
 header.page-header-about{
     margin-top: 4rem;
+    position: relative;
     background-color: #F2F2F2;
     height: 430px;  
+    
    
 }
 .about-container{
     display: flex;
     justify-content: space-between;
-   
 
-
-    
 }
 
 .about-banner{
-    position: absolute;
-    right: -110px;
-    width: 809px;
+    
+   
+   width: 40rem;
     height: 420px;
-    overflow: hidden;
-    clip: rect(0px,699px,1000px,0px);
-    
-    
+    position: absolute;
+    right: 0;
 }
+
+
 
 .circle-photo{
     margin-right: 370px;
