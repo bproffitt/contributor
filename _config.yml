@@ -1,7 +1,10 @@
 theme: jekyll-theme-cayman
-hlogo: assets/images/logo-light-stacked.svg
-logo: assets/images/logo-light-horizontal.svg
+hlogo: /
+logo: 
 title: Contributor.Link
+baseurl: "/test-contributor" 
+url: "https://DineshkumarRavikumar.github.io"
+destination: ./docs
 
 
 # Build settings
