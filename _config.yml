@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-hlogo: /assets/images/logo - light - stacked.svg
-logo: /assets/images/logo - light - horizontal.svg
+hlogo: assets/images/logo - light - stacked.svg
+logo: assets/images/logo - light - horizontal.svg
 title: Contributor.Link
 
 
@@ -22,6 +22,3 @@ defaults:
 sass:
   sass_dir: assets/css
   style: :compressed
- 
-include:
-  - assets/images
