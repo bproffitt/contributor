@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 hlogo: /
 logo: 
 title: Contributor.Link
-baseurl: "/test-contributor" 
+baseurl: "/contributor" 
 url: "https://DineshkumarRavikumar.github.io"
 destination: ./docs
 
