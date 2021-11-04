@@ -17,6 +17,4 @@ We are looking for projects that need contributors! When your project participat
 
 We will then build more robust connections based on interest and skill sets. We will also work with participating projects like yours to improve onboarding processes and materials, making it easier for anyone coming to your project to understand the goals of your work, and how to get involved!
 
-## Join Contributor.Link!
 
-If your project is looking for contributors of any kind, __[fill out this form](https://forms.gle/ccZbgwe2owLKX5FN8)__ if you would like to participate in Contributor.Link!

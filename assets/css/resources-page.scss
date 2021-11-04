@@ -24,8 +24,16 @@ header.page-header-resources{
     }
 }
 .resources-img{
+    position: absolute;
     margin-right: 200px;
     margin-top: 70px;
+    right: 0;
 
 
 }
+
+@media (max-width: 1580px) {
+    .resources-img{
+        visibility: hidden;
+    }
+   }

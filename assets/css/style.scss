@@ -51,7 +51,7 @@ $a-tags-hover: 'a:active, a:hover';
 }
 //tablet screen 
 
-@media screen and (max-width: 1491px){
+@media screen and (max-width: 1478px){
     //body
     .body-left, .body-right, .project-mic, .project-pen,.project-quote{
         display: none;
@@ -74,7 +74,6 @@ $a-tags-hover: 'a:active, a:hover';
 
     .wrapper {
        
-        z-index: 1;
         .h-logo{
             display: flex;
             justify-content: center;
@@ -91,11 +90,16 @@ $a-tags-hover: 'a:active, a:hover';
         }
     }
 }
+//home
+
 
     //banner
 
+    .icon{
+        z-index: 200;
+    }
     .page-header {
-        margin-top: 7.6em !important;
+        margin-top: 3.1em !important;
         height: 330px !important;
     }
 
@@ -188,6 +192,44 @@ $a-tags-hover: 'a:active, a:hover';
     }
   }
 
+  @media (max-width: 706px) {
+    .card-header{
+        h3{
+            margin-top: 20px;
+            font-size: 14px;
+            letter-spacing: 0em;
+        }
+    }
+    .cards{
+        width: 20rem !important;
+    }
+   .card{
+       left: -20px !important; 
+       width: 15rem;
+   }
+   .card-modal{
+       right: 0px !important;
+       width: 20rem;
+   }
+    .main-project{
+        flex-direction: column;
+    }
+    .filter_box, .filter_box_large, .filter_box_small, .filter_FOI_medium, .filter_FOI_small{
+        left: 0rem !important;
+        height: 50rem;
+        width: 20rem;
+    }
+  }  
+
+@media (max-width: 1268px) {
+   .circle-photo{
+       visibility: hidden;
+   }
+   .card-modal{
+       width: 30rem !important;
+   }
+  }
+
 body {
     background: #ffffff;
     font-family: 'Red Hat Text', sans-serif;
@@ -207,29 +249,6 @@ p{
     font-family: 'Red Hat Text';
 }
 
-//About page
 
-// About page end
-
-//projects page
-
-
-//projects end
-
-
-//resources page
-
-
-//resources end
-
-
-
-//card
-
-
-  
-
-  
-  //filter 
   
 

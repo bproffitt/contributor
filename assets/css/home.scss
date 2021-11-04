@@ -2,7 +2,6 @@
 .page-header {
     position: relative;
     display: flex;
-    
     background-image: url('/assets/images/contributor-link-header.png');
     height: 530px;
     overflow: hidden !important;
@@ -17,7 +16,7 @@
 }
 .overflow{
     margin-top: 25px !important;
-    overflow: hidden ;
+    overflow: hidden;
 }
 .icon{
     z-index: 1;
@@ -51,11 +50,11 @@ a {
   .body-right{
       position: absolute;
       top: 596px;
-      right: 0px;
+      right: 0;
       width: 360px;
       height: 308px;
-    
-   
+      z-index: -1;
+      overflow: hidden;
   }
   
   
